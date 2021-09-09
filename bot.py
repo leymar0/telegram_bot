@@ -81,7 +81,8 @@ def input_generaFicheros(update, context):
         action=ChatAction.TYPING,
         timeout=None
     )
-
+    
+    print('Para que me haga el commit')
 
     # Prepara ficheros dependiendo de quién pasa los datos
 
